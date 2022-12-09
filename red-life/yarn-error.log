@@ -1,0 +1,63 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\asus\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add react-native-reanimated
+
+PATH: 
+  C:\Python311\Scripts\;C:\Python311\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\ProgramData\chocolatey\bin;C:\Program Files\WindowsPowerShell\Scripts;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\asus\AppData\Local\Microsoft\WindowsApps;C:\Users\asus\AppData\Local\GitHubDesktop\bin;C:\Users\asus\AppData\Local\Programs\Microsoft VS Code\bin;C:\Python311;C:\Users\asus\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.12.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\asus\Documents\pro\red-life\node_modules\babel-loader\lib'
+
+npm manifest: 
+  {
+    "name": "red-life",
+    "version": "1.0.0",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web"
+    },
+    "dependencies": {
+      "@expo/webpack-config": "^0.17.2",
+      "@react-navigation/native": "^6.0.16",
+      "@react-navigation/native-stack": "^6.9.4",
+      "add": "^2.0.6",
+      "expo": "~47.0.8",
+      "expo-sensors": "^12.0.1",
+      "expo-status-bar": "~1.4.2",
+      "g": "^2.0.1",
+      "react": "18.1.0",
+      "react-dom": "18.1.0",
+      "react-native": "0.70.5",
+      "react-native-circular-progress-indicator": "^4.4.0",
+      "react-native-gesture-handler": "^2.8.0",
+      "react-native-paper": "^4.12.5",
+      "react-native-reanimated": "~2.12.0",
+      "react-native-web": "~0.18.9",
+      "yarn": "^1.22.19"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.12.9"
+    },
+    "private": true,
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": ""
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
